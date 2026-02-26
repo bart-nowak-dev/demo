@@ -1,1 +1,8 @@
-services: {}
+services:
+  my-app:
+    image: app-runner:local
+    ports:
+      - 8080:8080
+      - 5005:5005
+    environment:
+      - JAVA_TOOL_OPTIONS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005
