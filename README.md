@@ -1,0 +1,1 @@
+Project to demonstrate usage of docker and docker compose
