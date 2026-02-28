@@ -1,4 +1,4 @@
-package io.bartnowakdev.dockerdemo.api;
+package io.bartnowakdev.demo.api;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

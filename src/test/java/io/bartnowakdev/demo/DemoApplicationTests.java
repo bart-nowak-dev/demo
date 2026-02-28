@@ -1,10 +1,10 @@
-package io.bartnowakdev.dockerdemo;
+package io.bartnowakdev.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DockerDemoApplicationTests {
+class DemoApplicationTests {
 
 	@Test
 	void contextLoads() {
